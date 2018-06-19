@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   index = 0
     name_hash.collect do |name, age|
       if age < 2
-        return "#{name}"
+        return {"#{name}"}
       end
     end
     key_for_min_value(name_hash)
