@@ -7,9 +7,7 @@ def key_for_min_value(name_hash)
       if age < 2
         return
       end
-      if age < 11
-        return
-      end
+    
     end
     key_for_min_value(name)
 end
